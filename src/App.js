@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {AppHeader} from '../src/components/app-header/index';
+import {Carousel} from '../src/components/carousel/index';
+import { Quote } from './components/quote';
+import { MenuCardsElement } from './components/menu-cards-element';
+import { MenuCards } from './components/menu-cards';
+import { CarouselElement } from './components/carousel-element';
+import { AppFooter } from './components/app-footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppHeader />
+      <Carousel />
+      <CarouselElement /> {/* Не должно быть тут */}
+      <Quote />
+      <MenuCards />
+      <MenuCardsElement /> {/* Не должно быть тут */}
+      <Quote />
+      <MenuCards />
+      <Carousel />
+      <AppFooter />
     </div>
   );
 }
