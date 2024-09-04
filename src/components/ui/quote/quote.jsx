@@ -1,9 +1,11 @@
 import styles from './quote.module.css';
 
-export const QuoteUI = () => {
+export const QuoteUI = (quotes) => {
   return (
     <>
-      <div className={styles.quote}>Quote UI Component</div>
+      <span className={styles.line}></span>
+      <div className={styles.quote}>{quotes.text}</div>
+      <span className={styles.line}></span>
     </>
   )
 }

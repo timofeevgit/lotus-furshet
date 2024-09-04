@@ -1,4 +1,11 @@
 .quote {
-  background-color: black;
-  color: green
+  font-size: 30px;
+}
+
+.line {
+  display: flex;
+  margin-inline-start: 50px;
+  margin-inline-end: 50px;
+  border-top: 5px ridge #000000;
+  border-radius: 40%;
 }

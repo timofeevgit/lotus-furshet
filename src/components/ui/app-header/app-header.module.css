@@ -1,4 +1,72 @@
 .header {
-  background-color: black;
-  color: yellow
+  display: flex;
+  justify-content: space-around;
+  margin-block-start: 10px;
 }
+
+.brandContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.brandInfo {
+  grid-column: span 2;
+  margin-block-start: 5px;
+  margin-inline-start: 15px;
+  font-size: 18px;
+}
+
+  .brandLogo {
+    background-image: url('../../../../public/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 65px;
+  }
+
+  .brandName {
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+.navigationContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+  .menuButton {
+    width: 110px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #d0327d;
+    box-shadow: 0 5px 0 #5a1c39;
+  }
+
+  .menuButton:hover {
+    background: #d4498a;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+
+  .contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contacts {
+    font-size: 20px;
+  }
+
+  .social {
+    font-size: 20px;
+  }
