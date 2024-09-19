@@ -14,6 +14,7 @@ export const AppHeaderUI = () => {
           <div className={styles.contactsContainer}>
             <a href="#" className={styles.contacts}>Сделать заказ: 8 921 860 84 88</a>
             <a href="#" className={styles.social}>whatsapp / telegram</a>
+            <div className={styles.delivery}>Доставка</div>
           </div>
         </div>
       </header>

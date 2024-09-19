@@ -1,1 +1,0 @@
-export { MenuCardsElementUI } from './menu-cards-element';

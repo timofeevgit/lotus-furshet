@@ -1,4 +1,7 @@
-.footer {
-  background-color: black;
-  color: aqua
+.footerContainer {
+  background-color: rgb(209, 207, 207);
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 20px;
 }

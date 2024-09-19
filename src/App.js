@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import {AppHeader} from '../src/components/app-header/index';
-import {Carousel} from '../src/components/carousel/index';
-import { QuoteFirst, QuoteSecond } from './components/quote';
-import { MenuCardsElement } from './components/menu-cards-element';
-import { MenuCards } from './components/menu-cards';
-import { CarouselElement } from './components/carousel-element';
-import { AppFooter } from './components/app-footer';
+import React from "react";
+import "./App.css";
+import { AppHeader } from "../src/components/app-header/index";
+import { Carousel } from "../src/components/carousel/index";
+import { QuoteFirst, QuoteSecond, QuoteThird } from "./components/quote";
+import { Replies } from "./components/replies";
+import { MenuCards } from "./components/menu-cards";
+import { Faq } from "./components/faq";
+import { AppFooter } from "./components/app-footer";
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
       <Carousel />
       <QuoteFirst />
       <MenuCards />
-      <MenuCardsElement /> {/* Не должно быть тут */}
       <QuoteSecond />
-      <MenuCards />
-      <Carousel />
+      <Faq />
+      <Replies />
+      <QuoteThird />
       <AppFooter />
     </div>
   );
