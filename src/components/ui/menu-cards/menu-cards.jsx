@@ -10,11 +10,11 @@ export const MenuCardsUI = () => {
         <div className={styles.content}>
           <div className={styles.menuGrid}>
             {foodImagesMenu.map((item) => (
-              <div key={item.id}>
+              <div key={item.id} className={styles.cardContainer}>
                 <div className={classNames(styles.imgBody, styles.img)}>
                   <img src={item.src} alt={item.alt} />
                 </div>
-                <div>
+                <div className={styles.textContainer}>
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
                   <p>{item.calories}</p>

@@ -15,7 +15,7 @@
 .brandInfo {
   grid-column: span 2;
   margin-block-start: 5px;
-  margin-inline-start: 15px;
+  margin-inline-start: 25px;
   font-size: 18px;
 }
 
@@ -47,26 +47,81 @@
     text-decoration: none;
     color: white;
     background: #d0327d;
-    box-shadow: 0 5px 0 #5a1c39;
+    transition: transform 0.3s;
   }
 
   .menuButton:hover {
-    background: #d4498a;
-    box-shadow: none;
-    position: relative;
-    top: 5px;
+    transform: scale(1.2);
   }
 
   .contactsContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-size: 18px;
   }
 
   .contacts {
     font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s;
+  }
+
+  .contacts:hover {
+    transform: scale(1.1);
   }
 
   .social {
     font-size: 20px;
+    background-image: url(../../../../public/whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+  }
+
+  .social:hover {
+    transform: scale(1.2);
+  }
+
+
+  @media (width <= 414px) {
+    .header {
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .brandContainer {
+      padding-right: 40px;
+    }
+    .brandInfo {
+      font-size: 12px;
+      margin-block-start: 0px;
+      margin-inline-start: 0px;
+    }
+    .brandLogo {
+      width: 70px;
+      height: 50px;
+    }
+    .brandName {
+      font-size: 20px;
+    }
+    .menuButton {
+      width: 60px;
+      height: 40px;
+    }
+    .navigationContainer {
+      gap: 5px;
+    }
+    .contacts {
+      font-size: 14px;
+    }
+    .social {
+      font-size: 14px;
+    }
+    .contactsContainer {
+      font-size: 14px;
+    }
   }

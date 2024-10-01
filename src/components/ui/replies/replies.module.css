@@ -2,3 +2,9 @@
   font-size: 20px;
   color: black;
 }
+
+@media (width <= 414px) {
+  .container {
+    font-size: 16px;
+  }
+}

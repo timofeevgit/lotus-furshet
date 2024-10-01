@@ -8,12 +8,12 @@ export const QuoteFirst = () => {
 
 export const QuoteSecond = () => {
   return (
-    <QuoteUI text="Текст, который особенно подчеркивает необходимость срочно сдедать заказ на ближайшее мероприятие" />
+    <QuoteUI text="Полное меню по ссылке" />
   );
 };
 
 export const QuoteThird = () => {
   return (
-    <QuoteUI text="Последняя мотивационная цитата, всё на сегодня хватит" />
+    <QuoteUI text="Заказывайте вкуснейшие закуски к любому мероприятию" />
   );
 };

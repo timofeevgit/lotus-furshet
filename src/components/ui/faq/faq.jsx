@@ -8,7 +8,7 @@ export const FaqUI = ({ faqText }) => {
   
   return (
     <>
-      <h1>Как всё устроено</h1>
+      <h1 className={styles.faqHeaderText}>Как всё устроено</h1>
       <ul className="accordion">
         {faqText?.map((item, id) => {
           return <AccordionItem

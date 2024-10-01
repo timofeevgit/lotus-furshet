@@ -7,6 +7,7 @@ import { Replies } from "./components/replies";
 import { MenuCards } from "./components/menu-cards";
 import { Faq } from "./components/faq";
 import { AppFooter } from "./components/app-footer";
+import { About } from "./components/about";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Carousel />
       <QuoteFirst />
       <MenuCards />
-      <QuoteSecond />
+      {/* <QuoteSecond /> */}
+      <About />
       <Faq />
       <Replies />
       <QuoteThird />

@@ -1,39 +1,23 @@
 export const faqText = [
   {
-    question: 'lorem?',
-    answer: 'ipsumlorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414?',
+    question: 'Вкусно?',
+    answer: 'Очень вкусно Очень вкусно Очень вкусно Очень вкусно ',
   },
   {
-    question: 'gagabutata?',
-    answer: 'sosiska ketchupovaya lorem?',
+    question: 'Быстро?',
+    answer: 'Очень вкусно Очень вкусно Очень вкусно Очень вкусно Очень вкусно Очень вкусно Очень вкусно Очень вкусно Очень вкусно ',
   },
   {
-    question: 'hvatit programming',
-    answer: 'lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414',
+    question: 'Молодежно',
+    answer: 'Очень вкусно Очень вкусно Очень вкусно Очень вкусно ',
   },
   {
-    question: 'lorem?',
-    answer: 'ipsum?',
+    question: 'Область доставки',
+    answer: 'Очень вкусно Очень вкусно ',
   },
   {
-    question: 'gagabutata?',
-    answer: 'sosiska ketchupovaya lorem?',
-  },
-  {
-    question: 'hvatit programming',
-    answer: 'lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414',
-  },
-  {
-    question: 'lorem?',
-    answer: 'ipsum?',
-  },
-  {
-    question: 'gagabutata?',
-    answer: 'sosiska ketchupovaya lorem?',
-  },
-  {
-    question: 'hvatit programming',
-    answer: 'lorem ispum programming adwa ketchupovaya lorem? wadwadawd141414414414',
+    question: 'Что?',
+    answer: 'Очень вкусно ',
   },
 ]
 

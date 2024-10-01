@@ -12,9 +12,9 @@ export const AppHeaderUI = () => {
         <div className={styles.navigationContainer}>
           <button className={styles.menuButton}>МЕНЮ</button>
           <div className={styles.contactsContainer}>
-            <a href="#" className={styles.contacts}>Сделать заказ: 8 921 860 84 88</a>
-            <a href="#" className={styles.social}>whatsapp / telegram</a>
-            <div className={styles.delivery}>Доставка</div>
+            <a href="tel:+79218608488" className={styles.contacts}>Сделать заказ: +7 921 860 84 88</a>
+            <div className={styles.delivery}>Доставка по СПБ и Лен. области</div>
+            <a href="https://wa.me/c/79112474329" target='_blank' className={styles.social}></a>
           </div>
         </div>
       </header>

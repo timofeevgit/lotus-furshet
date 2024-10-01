@@ -5,16 +5,15 @@ export const AppFooterUI = () => {
     <>
       <footer className={styles.footerContainer}>
         <div className={styles.adressContainer}>
-          <div className={styles.delivery}>Доставка</div>
+          <div className={styles.delivery}>Доставка по СПБ и Лен. области</div>
         </div>
         <div className={styles.contactsContainer}>Контакты
-          <div>Телефон</div>
-          <div>Email</div>
+          <a href="tel:+79218608488" className={styles.contacts}>Сделать заказ: +7 921 860 84 88</a>
+          <a href="mailto:dimadimajob@yandex.ru">dimadimajob@yandex.ru</a>
         </div>
 
         <div className={styles.socialsContainer}>
-          <a href="#">WhatsApp</a>
-          <a href="#">Telegram</a>
+          <a href="https://wa.me/c/79112474329" target='_blank' className={styles.social}></a>
         </div>
       </footer>
     </>

@@ -9,11 +9,11 @@ export const RepliesUI = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 10000,
-    slidesToShow: 3,
+    speed: 8000,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10,
+    autoplaySpeed: 3000,
   };
   return (
     <>
