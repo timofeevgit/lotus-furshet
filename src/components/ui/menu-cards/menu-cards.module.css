@@ -57,10 +57,24 @@
   aspect-ratio: 1/1;
   outline-color: red;
   display: inline-block;
+
 }
 
-@media (width <= 414px) {
+.modal {
+  width: 1000px;
+  margin: 200px auto;
+  outline: none;
+}
+
+@media (width <= 820px) {
+  .modal {
+    width: 700px;
+  }
+}
+
+@media (width <= 430px) {
   .imgBody { 
     width: 320px;
+    pointer-events: none;
   }
 }

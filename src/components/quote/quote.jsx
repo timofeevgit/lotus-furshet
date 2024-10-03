@@ -14,6 +14,6 @@ export const QuoteSecond = () => {
 
 export const QuoteThird = () => {
   return (
-    <QuoteUI text="Заказывайте вкуснейшие закуски к любому мероприятию" />
+    <QuoteUI text="Фуршет для дня рождения, корпоратива, свадьбы и любому другому празднику" />
   );
 };
