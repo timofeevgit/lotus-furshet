@@ -1,1 +1,1 @@
-export { QuoteUI } from './quote';
+export { QuoteUI } from "./quote";

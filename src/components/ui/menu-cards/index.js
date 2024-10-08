@@ -1,1 +1,1 @@
-export { MenuCardsUI } from './menu-cards';
+export { MenuCardsUI } from "./menu-cards";

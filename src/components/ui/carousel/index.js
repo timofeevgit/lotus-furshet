@@ -1,1 +1,1 @@
-export { CarouselUI } from './carousel';
+export { CarouselUI } from "./carousel";

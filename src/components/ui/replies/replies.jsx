@@ -9,24 +9,24 @@ export const RepliesUI = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 8000,
+    speed: 6000,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
   };
   return (
     <>
-      <div className={styles.container}>
+      <section className={styles.container}>
         <Slider {...settings}>
           {repliesText.map((item) => (
             <div key={item.id}>
-              <p>{item.name}</p>
+              <p className={styles.name}>{item.name}</p>
               <p>{item.text}</p>
             </div>
           ))}
         </Slider>
-      </div>
+      </section>
     </>
   );
 };

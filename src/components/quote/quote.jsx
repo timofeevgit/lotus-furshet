@@ -7,9 +7,7 @@ export const QuoteFirst = () => {
 };
 
 export const QuoteSecond = () => {
-  return (
-    <QuoteUI text="Полное меню по ссылке" />
-  );
+  return <QuoteUI text="Полное меню по ссылке" />;
 };
 
 export const QuoteThird = () => {

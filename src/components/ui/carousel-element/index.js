@@ -1,1 +1,0 @@
-export { CarouselElementUI } from './carousel-element';

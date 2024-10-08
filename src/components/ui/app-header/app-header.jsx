@@ -10,10 +10,13 @@ export const AppHeaderUI = () => {
           <p className={styles.brandInfo}>Кейтеринг, фуршеты, мероприятия</p>
         </div>
         <div className={styles.navigationContainer}>
-          <button className={styles.menuButton}>МЕНЮ</button>
+          <a className={styles.navButton} href="#menu-cards">
+            <button className={styles.menuButton}>МЕНЮ</button>
+          </a>
+
           <div className={styles.contactsContainer}>
-            <a href="tel:+79218608488" className={styles.contacts}>
-              Сделать заказ: +7 921 860 84 88
+            <a href="tel:+79112474329" className={styles.contacts}>
+              Сделать заказ: +7 911 247 43 29
             </a>
             <div className={styles.delivery}>
               Доставка по СПБ и Лен. области
@@ -22,18 +25,27 @@ export const AppHeaderUI = () => {
               <a
                 href="https://wa.me/c/79112474329"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.socialWhatsapp}
-              ></a>
+              >
+                {" "}
+              </a>
               <a
                 href="https://t.me/Chili_YS"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.socialTelegram}
-              ></a>
+              >
+                {" "}
+              </a>
               <a
                 href="https://www.instagram.com/lotos_furshet.spb?igsh=ZGx2cjhnNTlub2Qz"
                 target="_blank"
+                rel="noreferrer"
                 className={styles.socialInstagram}
-              ></a>
+              >
+                {" "}
+              </a>
             </div>
           </div>
         </div>

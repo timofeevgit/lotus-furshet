@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { AppHeader } from "../src/components/app-header/index";
 import { Carousel } from "../src/components/carousel/index";
-import { QuoteFirst, QuoteSecond, QuoteThird } from "./components/quote";
+import { QuoteFirst, QuoteThird } from "./components/quote";
 import { Replies } from "./components/replies";
 import { MenuCards } from "./components/menu-cards";
 import { Faq } from "./components/faq";
@@ -16,7 +16,6 @@ function App() {
       <Carousel />
       <QuoteFirst />
       <MenuCards />
-      {/* <QuoteSecond /> */}
       <About />
       <Faq />
       <Replies />

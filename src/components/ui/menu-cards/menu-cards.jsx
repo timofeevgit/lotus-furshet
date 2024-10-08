@@ -5,7 +5,6 @@ import classNames from "classnames";
 import foodImagesMenu from "../../../images/menu-images/images";
 
 export const MenuCardsUI = () => {
-
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -21,24 +20,31 @@ export const MenuCardsUI = () => {
 
   return (
     <>
-      <div className={styles.container}>
+      <section className={styles.container}>
         <div className={styles.content}>
-          <div className={styles.menuGrid}>
+          <div id="menu-cards" className={styles.menuGrid}>
             {foodImagesMenu.map((item) => (
               <div key={item.id} className={styles.cardContainer}>
                 <div className={classNames(styles.imgBody, styles.img)}>
-                  <img src={item.src} alt={item.alt}  onClick={() => openModal(item.src)} />
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    onClick={() => openModal(item.src)}
+                  />
                 </div>
                 <div className={styles.textContainer}>
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
                   <p>{item.calories}</p>
+                  <a href="tel:+79112474329" className={styles.contacts}>
+                    Сделать заказ: +7 911 247 43 29
+                  </a>
                 </div>
               </div>
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
       <Modal
         isOpen={modalIsOpen}
@@ -48,7 +54,6 @@ export const MenuCardsUI = () => {
       >
         <img src={selectedImage} alt="" style={{ width: "100%" }} />
       </Modal>
-
     </>
   );
 };

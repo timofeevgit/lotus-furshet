@@ -14,6 +14,7 @@
 .contactsContainer {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 .socials {
@@ -31,55 +32,57 @@
   text-decoration: none;
 }
 
-  .socialWhatsapp {
-    font-size: 20px;
-    background-image: url(../../../../public/whatsapp.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 62px;
-    height: 62px;
-    transition: transform 0.3s;
-  }
+.socialWhatsapp {
+  font-size: 20px;
+  background-image: url(../../../../public/whatsapp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 62px;
+  height: 62px;
+  transition: transform 0.3s;
+}
 
-  .socialTelegram {
-    font-size: 20px;
-    background-image: url(../../../../public/telegram.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 50px;
-    height: 60px;
-    transition: transform 0.3s;
-  }
+.socialTelegram {
+  font-size: 20px;
+  background-image: url(../../../../public/telegram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 50px;
+  height: 60px;
+  transition: transform 0.3s;
+}
 
-  .socialInstagram {
-    font-size: 20px;
-    background-image: url(../../../../public/instagram.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 50px;
-    height: 60px;
-    transition: transform 0.3s;
-  }
+.socialInstagram {
+  font-size: 20px;
+  background-image: url(../../../../public/instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 50px;
+  height: 60px;
+  transition: transform 0.3s;
+}
 
-  .socialWhatsapp:hover {
-    transform: scale(1.2);
-  }
+.socialWhatsapp:hover {
+  transform: scale(1.2);
+}
 
-  .socialTelegram:hover {
-    transform: scale(1.2);
-  }
+.socialTelegram:hover {
+  transform: scale(1.2);
+}
 
-  .socialInstagram:hover {
-    transform: scale(1.2);
-  }
+.socialInstagram:hover {
+  transform: scale(1.2);
+}
 
-@media (width <= 414px) {
+@media (width <= 430px) {
   .footerContainer {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-content: center;
+    gap: 35px;
+    height: 450px;
   }
 }

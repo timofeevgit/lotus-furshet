@@ -1,1 +1,1 @@
-export { FaqUI } from './faq';
+export { FaqUI } from "./faq";
